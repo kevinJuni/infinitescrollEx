@@ -10,6 +10,8 @@ Intersection Observer API는 타겟 요소와 상위 요소 또는 최상위 doc
 
 ### 구현방법
 구현방법은 간단하다
+
+
     1. option 을 선언 초기화를 해준다.
     2. callback 함수를 선언 해준다.
     3. IntersectionObserver를 위의 option과 callback 함수를 이용하여 생성해준다.
