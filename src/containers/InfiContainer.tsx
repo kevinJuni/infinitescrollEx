@@ -49,13 +49,9 @@ export default function InfiContainer() {
         return () => observer.disconnect(); 
     }, [ObserverCallback,option]);
 
-    const aa = () => console.log(targetEl.current)
     return(
         <div>
             <div className="container">
-                <div onClick={aa}>
-                    aasdsada
-                </div>
                 {
                     itemList.map(item=>
                         <InfiItem color={item.color} text={item.text}/>
